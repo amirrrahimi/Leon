@@ -1,0 +1,13 @@
+{
+  "appId": "com.didban.leon",
+  "appName": "Leon",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "SplashScreen": { "launchShowDuration": 600, "backgroundColor": "#0b1128" },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#0b1128" }
+  },
+  "ios": { "contentInset": "always", "backgroundColor": "#0b1128" },
+  "android": { "backgroundColor": "#0b1128", "allowMixedContent": false }
+}
